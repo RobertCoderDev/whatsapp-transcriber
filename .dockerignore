@@ -1,5 +1,10 @@
 node_modules
 npm-debug.log
-.DS_Store
 .git
+.DS_Store
 .env
+.idea
+.vscode
+test
+coverage
+temp

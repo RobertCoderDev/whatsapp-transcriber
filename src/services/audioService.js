@@ -4,7 +4,7 @@ const { saveTempFile, deleteTempFile } = require('./fileService');
 const path = require('path');
 
 exports.processAudio = async (req, res) => {
-    console.log('🟡  Proceso de audio iniciado...');
+    console.log('🛫  Proceso de audio iniciado...');
 
     try {
         const { mediaKey, fileEncSha256, directPath, mimetype } = req.body;
